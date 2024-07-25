@@ -1,4 +1,4 @@
-# wwrevolt
+# world wide revolt
 Prepare to dive into the part of "World Wide Revolt," where strategy and teamwork come together in an epic adventure. Will you survive?
 
 The game is in Early Access, with new features and improvements being added each week.
@@ -18,7 +18,7 @@ The game is in Early Access, with new features and improvements being added each
 - Equipping Items: Players can equip their characters with various items.
 - Trading Items: Players can trade or sell items with each other.
 
-Social Elements
+### Social Elements
 - PvP (Player vs. Player): Players can compete against each other.
 - Leaderboard: A ranking system for the top players.
 
@@ -33,8 +33,8 @@ Social Elements
 - Market: Platform for buying and selling items.
 - Bar: The place where players can receive missions.
 
-Missions
+### Missions
 - world exploration: An area outside the city that can be explored.
 - expedition: Players can go on world exploration to gather small rewards.
 
-These features form the foundation of the game and are continuously being developed and enhanced to improve the overall experience.
+These features form the foundation of the game and are continuously being developed and enhanced to improve the overall experience. 
