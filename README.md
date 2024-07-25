@@ -16,12 +16,11 @@ The game is in Early Access, with new features and improvements being added each
 - Skill Training: Players can learn and improve different skills.
 - Inventory: Manage items and equipment.
 - Equipping Items: Players can equip their characters with various items.
-  Trading Items: Players can trade or sell items with each other.
+- Trading Items: Players can trade or sell items with each other.
 
 Social Elements
 - PvP (Player vs. Player): Players can compete against each other.
 - Leaderboard: A ranking system for the top players.
-
 
 - Events: Regular events that offer special rewards.
 
