@@ -28,7 +28,7 @@ Social Elements
 - Resource Trading: Trade various resources with other players.
 
 ### Buildings
-- Player Lands: Each player has their own land with a set number of plots for building structures.
+- Player Area: Each player has their own Area with a set number of plots for building structures. 
 - Resource Production: Build structures like wells, marketplaces, and fields to produce resources.
 - Market: Platform for buying and selling items.
 - Bar: The place where players can receive missions.
