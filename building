@@ -1,101 +1,106 @@
-Building Types and Their Effects
+Here’s a description of the building types. these building types will be added this week or have already been implemented. 
 
-    Marketplace
-        Description: The Marketplace is a central trading hub where goods can be bought and sold. It promotes commerce and connects players with various resources.
-        Effects: Increases revenue and turnover of goods in the city.
-        Dependencies: Relies on the trade level and availability of goods.
+### Building Types and Their Effects
 
-    Library
-        Description: The Library provides access to knowledge and education, enhancing learning and development for players.
-        Effects: Increases knowledge and experience points (XP) for players.
-        Dependencies: Dependent on the educational level of the city.
+1. **Marketplace**
+   - **Description:** The Marketplace is a central trading hub where goods can be bought and sold. It promotes commerce and connects players with various resources.
+   - **Effects:** Increases revenue and turnover of goods in the city.
+   - **Dependencies:** Relies on the trade level and availability of goods.
 
-    Hospital
-        Description: The Hospital provides medical care and healing for residents, contributing to overall health and quality of life.
-        Effects: Heals injuries and illnesses; improves general healthcare.
-        Dependencies: Requires medical resources and qualified staff.
+2. **Library**
+   - **Description:** The Library provides access to knowledge and education, enhancing learning and development for players.
+   - **Effects:** Increases knowledge and experience points (XP) for players.
+   - **Dependencies:** Dependent on the educational level of the city.
 
-    School
-        Description: The School is an educational institution responsible for training the next generation, fostering the development of scholars.
-        Effects: Increases the number of scholars and trains future professionals.
-        Dependencies: Requires teaching staff and educational materials.
+3. **Hospital**
+   - **Description:** The Hospital provides medical care and healing for residents, contributing to overall health and quality of life.
+   - **Effects:** Heals injuries and illnesses; improves general healthcare.
+   - **Dependencies:** Requires medical resources and qualified staff.
 
-    Martial Arts Center
-        Description: The Martial Arts Center offers training in martial arts and self-defense.
-        Effects: Enhances the skills of martial arts masters and promotes physical fitness.
-        Dependencies: Needs experienced trainers and training equipment.
+4. **School**
+   - **Description:** The School is an educational institution responsible for training the next generation, fostering the development of scholars.
+   - **Effects:** Increases the number of scholars and trains future professionals.
+   - **Dependencies:** Requires teaching staff and educational materials.
 
-    Bakery/Oven
-        Description: The Bakery produces bread and other baked goods, contributing to the city's nutrition.
-        Effects: Provides bread; influences nutrition and prosperity of the residents.
-        Dependencies: Requires ingredients like flour and baking equipment.
+5. **Martial Arts Center**
+   - **Description:** The Martial Arts Center offers training in martial arts and self-defense.
+   - **Effects:** Enhances the skills of martial arts masters and promotes physical fitness.
+   - **Dependencies:** Needs experienced trainers and training equipment.
 
-    Brewery/Kettle
-        Description: The Brewery produces beer and other alcoholic beverages, contributing to social relationships and the economy.
-        Effects: Enhances relationships through social gatherings and increases revenue from beer production.
-        Dependencies: Needs ingredients like malt and yeast.
+6. **Bakery/Oven**
+   - **Description:** The Bakery produces bread and other baked goods, contributing to the city's nutrition.
+   - **Effects:** Provides bread; influences nutrition and prosperity of the residents.
+   - **Dependencies:** Requires ingredients like flour and baking equipment.
 
-    Social Center
-        Description: The Social Center acts as a news board and provides information and support to residents.
-        Effects: Promotes community engagement and facilitates the dissemination of news and information.
-        Dependencies: Requires administrative staff and communication tools.
+7. **Brewery/Kettle**
+   - **Description:** The Brewery produces beer and other alcoholic beverages, contributing to social relationships and the economy.
+   - **Effects:** Enhances relationships through social gatherings and increases revenue from beer production.
+   - **Dependencies:** Needs ingredients like malt and yeast.
 
-    Bar
-        Description: The Bar is a venue for socializing and recreational activities, contributing to social interaction and local economy.
-        Effects: Boosts social relationships and supports the local economy.
-        Dependencies: Requires bar staff and beverage supply.
+8. **Social Center**
+   - **Description:** The Social Center acts as a news board and provides information and support to residents.
+   - **Effects:** Promotes community engagement and facilitates the dissemination of news and information.
+   - **Dependencies:** Requires administrative staff and communication tools.
 
-    Well
-        Description: The Well provides water for the city and its residents.
-        Effects: Supplies the city with water and improves quality of life.
-        Dependencies: Requires regular maintenance and water sources.
+9. **Bar**
+   - **Description:** The Bar is a venue for socializing and recreational activities, contributing to social interaction and local economy.
+   - **Effects:** Boosts social relationships and supports the local economy.
+   - **Dependencies:** Requires bar staff and beverage supply.
 
-    Wheat Field
-        Description: The Wheat Field produces wheat, which is used for bread and beer production.
-        Effects: Provides wheat for food production.
-        Dependencies: Requires land and agricultural equipment.
+10. **Well**
+    - **Description:** The Well provides water for the city and its residents.
+    - **Effects:** Supplies the city with water and improves quality of life.
+    - **Dependencies:** Requires regular maintenance and water sources.
 
-    Salt Mine
-        Description: The Salt Mine extracts salt, which is used as currency and for food preservation.
-        Effects: Generates salt, a valuable resource.
-        Dependencies: Needs mining equipment and labor.
+11. **Wheat Field**
+    - **Description:** The Wheat Field produces wheat, which is used for bread and beer production.
+    - **Effects:** Provides wheat for food production.
+    - **Dependencies:** Requires land and agricultural equipment.
 
-    Fish Pond
-        Description: The Fish Pond is used for fish farming and fishing activities.
-        Effects: Supplies the city with fish and supports the fishing industry.
-        Dependencies: Requires pond maintenance and fishing equipment.
+12. **Salt Mine**
+    - **Description:** The Salt Mine extracts salt, which is used as currency and for food preservation.
+    - **Effects:** Generates salt, a valuable resource.
+    - **Dependencies:** Needs mining equipment and labor.
 
-    Tobacco Field
-        Description: The Tobacco Field grows tobacco, which is used as currency.
-        Effects: Produces tobacco for trade and manufacturing.
-        Dependencies: Needs agricultural resources and care.
+13. **Fish Pond**
+    - **Description:** The Fish Pond is used for fish farming and fishing activities.
+    - **Effects:** Supplies the city with fish and supports the fishing industry.
+    - **Dependencies:** Requires pond maintenance and fishing equipment.
 
-    Hemp Field
-        Description: The Hemp Field grows hemp, which is used for medical purposes.
-        Effects: Produces hemp for medical applications and research.
-        Dependencies: Requires agricultural care and harvesting equipment.
+14. **Tobacco Field**
+    - **Description:** The Tobacco Field grows tobacco, which is used as currency.
+    - **Effects:** Produces tobacco for trade and manufacturing.
+    - **Dependencies:** Needs agricultural resources and care.
 
-    Laboratory
-        Description: The Laboratory focuses on research and development of technology.
-        Effects: Advances technological progress and innovation.
-        Dependencies: Requires research staff and lab equipment.
+15. **Hemp Field**
+    - **Description:** The Hemp Field grows hemp, which is used for medical purposes.
+    - **Effects:** Produces hemp for medical applications and research.
+    - **Dependencies:** Requires agricultural care and harvesting equipment.
 
-    Foundry
-        Description: The Foundry produces metal goods and weapons.
-        Effects: Creates metal goods for trade and defense.
-        Dependencies: Needs raw materials like ore and smelting furnaces.
+16. **Laboratory**
+    - **Description:** The Laboratory focuses on research and development of technology.
+    - **Effects:** Advances technological progress and innovation.
+    - **Dependencies:** Requires research staff and lab equipment.
 
-    Wellness Center
-        Description: The Wellness Center offers relaxation and health services to improve residents' well-being.
-        Effects: Increases the energy of residents and enhances quality of life.
-        Dependencies: Requires wellness facilities and staff.
+17. **Foundry**
+    - **Description:** The Foundry produces metal goods and weapons.
+    - **Effects:** Creates metal goods for trade and defense.
+    - **Dependencies:** Needs raw materials like ore and smelting furnaces.
 
-    Artist Studio
-        Description: The Artist Studio is a space for artistic creativity and art production.
-        Effects: Improves the aesthetic appeal of the city and boosts energy.
-        Dependencies: Needs art supplies and talented artists.
+18. **Wellness Center**
+    - **Description:** The Wellness Center offers relaxation and health services to improve residents' well-being.
+    - **Effects:** Increases the energy of residents and enhances quality of life.
+    - **Dependencies:** Requires wellness facilities and staff.
 
-    Residential Complex (xx People)
-        Description: The Residential Complex provides housing for a specified number of residents, promoting city growth.
-        Effects: Increases population and improves living conditions.
-        Dependencies: Requires construction resources and infrastructure.
+19. **Artist Studio**
+    - **Description:** The Artist Studio is a space for artistic creativity and art production.
+    - **Effects:** Improves the aesthetic appeal of the city and boosts energy.
+    - **Dependencies:** Needs art supplies and talented artists.
+
+20. **Residential Complex (xx People)**
+    - **Description:** The Residential Complex provides housing for a specified number of residents, promoting city growth.
+    - **Effects:** Increases population and improves living conditions.
+    - **Dependencies:** Requires construction resources and infrastructure.
+
+---
+these building types will be added this week or have already been implemented. 
