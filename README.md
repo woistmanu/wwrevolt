@@ -3,6 +3,9 @@ Prepare to dive into the part of "World Wide Revolt," where strategy and teamwor
 
 The game is in Early Access, with new features and improvements being added each week.
 
+
+![Screenshot of your Area](https://github.com/woistmanu/wwrevolt/blob/main/Screenshot_20240728_223812_DuckDuckGo.jpg)
+
 ## Features:
 
 ### Monetization
