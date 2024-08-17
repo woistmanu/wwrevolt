@@ -2,7 +2,10 @@
 Prepare to dive into the part of "World Wide Revolt," where strategy and teamwork come together in an epic adventure. Will you survive?
 
 The game is in Early Access, with new features and improvements being added each week.
-
+<video controls style="max-width: 100%; height: auto;">
+  <source src="https://github.com/woistmanu/wwrevolt/raw/main/VID-20240817-WA0001.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 ![Screenshot of your Area](https://github.com/woistmanu/wwrevolt/blob/main/Screenshot_20240728_223812_DuckDuckGo.jpg)
 
