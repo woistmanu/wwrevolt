@@ -12,10 +12,10 @@ The game is in Early Access, with new features and improvements being added each
 ## Features:
 
 ### Monetization
-- Integration with Stripe: Seamless payment processing for in-game purchases.
-- In-game Purchases: Players can buy premium items and currency.
-- Premium Account Subscriptions: Multiple tiers of account upgrades available.
-- Premium Currency: Exclusive currency for special purchases and upgrades.
+- (comming soon)Integration with Stripe: Seamless payment processing for in-game purchases.
+- (comming soon)In-game Purchases: Players can buy premium items and currency.
+- (comming soon)Premium Account Subscriptions: Multiple tiers of account upgrades available.
+- (comming soon)Premium Currency: Exclusive currency for special purchases and upgrades.
 
 ### RPG Character
 - Leveling System: Characters can level up through various activities.
