@@ -1,0 +1,18 @@
+parameters:
+  database:
+    dsn: 'mysql:host=localhost;dbname=your_database_name'
+    user: 'your_database_user'
+    password: 'your_database_password'
+
+services:
+  database: 
+    factory: Nette\Database\Context
+    arguments: [%database.dsn%, %database.user%, %database.password%]
+
+  user:
+    factory: Nette\Security\User
+    arguments: [@userStorage]
+
+  chatModel:
+    class: App\Module\Front\Presenters\Chat\ChatModel
+    arguments: [@database, @user]
