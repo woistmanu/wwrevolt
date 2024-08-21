@@ -1,0 +1,46 @@
+{define bodyClass}page--chat{/define}
+{define pageTitle}Chat Room{/define}
+{define metaDescription}Join our chat room and engage with the community!{/define}
+
+{block pageContent}
+<div class="uk-container uk-margin-auto">
+    <div class="uk-card uk-width-1-1 uk-card-default uk-card-body uk-padding-small uk-margin-top">
+        <h2 class="uk-card-title uk-text-center">World Wide Revolt Chat Room - Main</h2>
+        <!-- Nachrichtenbereich -->
+        <div id="chat-messages" class="uk-overflow-auto" style="height: 400px; background-color: #f3f3f3; padding: 10px; border-radius: 10px;">
+            {foreach $chatMessages as $message}
+                <div class="chat-message">
+                    <strong>{$message->sender_name}</strong>: {$message->message|escapeHtml}
+                    <span class="uk-text-meta uk-margin-small-left">{$message->created_at|date:'H:i'}</span>
+                </div>
+            {/foreach}
+        </div>
+        
+        <!-- Eingabebereich -->
+        <div class="uk-margin-top">
+            <form id="chat-form" action="{link Chat:sendMessage}" method="post" class="uk-grid-small" uk-grid>
+                <div class="uk-width-expand">
+                    <input type="text" name="message" class="uk-input" placeholder="Type your message here..." required>
+                </div>
+                <div class="uk-width-auto">
+                    <button type="submit" class="uk-button uk-button-primary">Send</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery zum automatischen Scrollen zum neuesten Beitrag -->
+<script>
+    $(document).ready(function() {
+        const chatMessages = $('#chat-messages');
+        chatMessages.scrollTop(chatMessages.prop('scrollHeight'));
+
+        $('#chat-form').on('submit', function() {
+            setTimeout(function() {
+                chatMessages.scrollTop(chatMessages.prop('scrollHeight'));
+            }, 100);
+        });
+    });
+</script>
+{/block}
